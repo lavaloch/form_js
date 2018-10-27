@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: salmon;
+  h1 {
+    font-size: 20px;
+    width: 640px;
+    line-height: 100px;
+    margin: 0 auto;
+  }
+}
+
+main {
+  width: 640px;
+  margin: 0 auto;
+}
+
+input, select {
+  height: 80px;
+  border: 5px solid navajowhite;
+  font-size: 20px;
+  padding-left: 5px;
+  border-radius: 2px;
+}
+
+select {
+  background-color: navajowhite;
+}
+
+button {
+  background-color: skyblue;
+  height: 80px;
+  color: white;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.inner {
+  padding-top: 30px;
+  width: 60%;
+
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1 0 30%;
+}
