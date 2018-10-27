@@ -29,15 +29,26 @@ input, select {
   padding-left: 5px;
   border-radius: 2px; }
 
+input:focus {
+  outline: Aquamarine auto 3px; }
+
+select:focus {
+  outline: Aquamarine auto 3px; }
+
 select {
   background-color: navajowhite; }
 
 button {
-  background-color: skyblue;
+  background-color: Aquamarine;
   height: 80px;
-  color: white;
+  font-weight: 600;
   border-radius: 2px;
-  font-size: 20px; }
+  font-size: 20px;
+  border-color: Aquamarine;
+  cursor: pointer; }
+
+button:focus {
+  outline: none; }
 
 .container {
   width: 100%; }
@@ -48,6 +59,9 @@ button {
   text-align: left;
   display: flex;
   justify-content: space-between; }
+
+.inner:nth-chil(2n) {
+  background-color: gray; }
 
 .item {
   flex: 1 0 30%; }

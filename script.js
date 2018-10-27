@@ -34,6 +34,7 @@ window.addEventListener("load", function() {
 })
 
 buttonElt.addEventListener("click", function(e) {
+  console.dir(buttonElt)
   e.preventDefault();
   let innerElt = document.createElement("inner");
   let firstName = document.getElementById("first-name")
@@ -45,6 +46,6 @@ buttonElt.addEventListener("click", function(e) {
   lastName.value = ""
   age.value = "0 - 20"
   console.dir(titleElt)
-  titleElt.innerText = "Thanks ! Feed me again..."
+  titleElt.innerHTML = "Thanks ! Feed me again..."
 })
 
